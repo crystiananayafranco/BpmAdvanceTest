@@ -1,5 +1,6 @@
 Prueba de concepto para el curso Advanced Process Development with Red Hat JBoss BPM Suite
 Author: Crystian Anaya Franco
+=======================
 Correo: canaya@redhat.com
 =======================
 
