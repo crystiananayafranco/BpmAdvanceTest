@@ -11,13 +11,5 @@
 <property name="outputBinding" value="testObjectOut/description"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="testObject_ownerAuth" type="CheckBox" id="2075238804">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;ownerAuth (testObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="testObjectIn/ownerAuth"/>
-<property name="outputBinding" value="testObjectOut/ownerAuth"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
 <dataHolder inputId="testObjectIn" name="#E9E371" type="dataModelerEntry" outId="testObjectOut" value="com.test.testproject.TestObject" id="testObject"/>
 </form>

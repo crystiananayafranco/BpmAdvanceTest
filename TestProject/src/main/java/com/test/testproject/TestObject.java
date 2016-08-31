@@ -18,8 +18,17 @@ public class TestObject implements java.io.Serializable
    @org.kie.api.definition.type.Label("Result")
    private java.lang.Boolean result;
 
-   @org.kie.api.definition.type.Label(value = "Reject Comment")
+   @org.kie.api.definition.type.Label("Reject Comment")
    private java.lang.String rejectComment;
+
+   @org.kie.api.definition.type.Label("date")
+   private java.lang.String date;
+
+   @org.kie.api.definition.type.Label("authElec")
+   private Boolean authElec;
+
+   @org.kie.api.definition.type.Label("authStruc")
+   private boolean authStruc;
 
    public TestObject()
    {
@@ -75,15 +84,49 @@ public class TestObject implements java.io.Serializable
       this.rejectComment = rejectComment;
    }
 
+   public java.lang.String getDate()
+   {
+      return this.date;
+   }
+
+   public void setDate(java.lang.String date)
+   {
+      this.date = date;
+   }
+
+   public boolean isAuthStruc()
+   {
+      return this.authStruc;
+   }
+
+   public void setAuthStruc(boolean authStruc)
+   {
+      this.authStruc = authStruc;
+   }
+
+   public java.lang.Boolean getAuthElec()
+   {
+      return this.authElec;
+   }
+
+   public void setAuthElec(java.lang.Boolean authElec)
+   {
+      this.authElec = authElec;
+   }
+
    public TestObject(java.lang.String description, java.lang.Boolean ownerAuth,
          java.lang.Boolean executiveAuth, java.lang.Boolean result,
-         java.lang.String rejectComment)
+         java.lang.String rejectComment, java.lang.String date,
+         java.lang.Boolean authElec, boolean authStruc)
    {
       this.description = description;
       this.ownerAuth = ownerAuth;
       this.executiveAuth = executiveAuth;
       this.result = result;
       this.rejectComment = rejectComment;
+      this.date = date;
+      this.authElec = authElec;
+      this.authStruc = authStruc;
    }
 
 }
